@@ -1,0 +1,10 @@
+[package]
+name = "function_three"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "function_three"
+path = "src/function_three.rs"
+
+[dependencies]

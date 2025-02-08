@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"  # https://doc.rust-lang.org/cargo/reference/resolver.html#resolver-versions
+members = [
+    # functions
+    "app/functions/function_one",
+    "app/functions/function_two",
+    "app/functions/function_three",
+    # libraries
+    "app/libraries/common_lib",
+]

@@ -1,0 +1,10 @@
+[package]
+name = "function_two"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "function_two"
+path = "src/function_two.rs"
+
+[dependencies]

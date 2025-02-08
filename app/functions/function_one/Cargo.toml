@@ -1,0 +1,10 @@
+[package]
+name = "function_one"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "function_one"
+path = "src/function_one.rs"
+
+[dependencies]
