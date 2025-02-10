@@ -1,22 +1,4 @@
-# AWS Lambda with Rust runtime
-
-After analyzing existing options to run on AWS Lambda, was decided to try out with Rust language. It seems to be easier to setup and provides about the best price per request value comparable with C/C++/Go.
-
-## Tutorial plan
-
-For each of the lesson I will try to make corresponding commit with name of lesson.
-
-## Let's start
-
-First you need to get RustUp and install Rust with Cargo.
-
-Second step will be installing cargo-lambda:
-
-```bash
-cargo install cargo-lambda
-```
-
-## 1. Initial setup
+# 1. Initial setup
 
 Each of our Lambda function will be stored in separate Cargo module. They may have very different dependencies, and we don't want all of our functions to be bundled with dependencies they don't require. Yes, Cargo actually supports to have multiply binaries in one module and have different dependencies for eac of them, but configuring and managing it is quite difficult. Going with multiply modules is much more straightforward and have lots of benefits later on.
 
@@ -94,7 +76,7 @@ Remove all unnecessary files if they exist. I had `.gitignore` file in each subm
 
 `.gitignore`:
 
-```gitignore
+```plain
 target
 **/*.rs.bk
 **/*.log

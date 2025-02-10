@@ -8,3 +8,8 @@ name = "function_two"
 path = "src/function_two.rs"
 
 [dependencies]
+serde = { workspace = true }
+serde_json = { workspace = true }
+lambda_runtime = { workspace = true }
+aws_lambda_events = { workspace = true }
+tokio = { workspace = true }

@@ -8,3 +8,8 @@ name = "function_one"
 path = "src/function_one.rs"
 
 [dependencies]
+tokio = { workspace = true }
+serde = { workspace = true }
+
+# internal dependencies
+lambda_http_wrapper = { path = "../../libraries/lambda_http_wrapper"}
