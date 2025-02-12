@@ -5,8 +5,9 @@ members = [
     "app/functions/function_one",
     "app/functions/function_two",
     "app/functions/function_three",
+    "app/functions/function_four",
     # libraries
-    "app/libraries/lambda_http_wrapper",
+    "app/libraries/lambda_http_wrapper", "app/functions/function_four",
 ]
 
 [workspace.dependencies]

@@ -28,11 +28,12 @@ export default {
         text: "Tutorial",
         collapsible: true,
         items: [
-          { text: "01 - Initial Setup", link: "/tutorial/01_initial_setup" },
+          { text: "1. Initial Setup", link: "/tutorial/01_initial_setup" },
           {
-            text: "02 - Handling REST API Requests",
+            text: "2. Handling REST API Requests",
             link: "/tutorial/02_handle_rest_requests",
           },
+          { text: "3. Deploy to AWS Lambda", link: "/tutorial/03_deploy_to_aws_lambda" },
         ],
       },
     ],
