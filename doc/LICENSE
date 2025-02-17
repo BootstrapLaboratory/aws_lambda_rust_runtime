@@ -1,10 +1,20 @@
-AWS Lambda with Rust Tutorial Documentation
-----------------------------------------------
+AWS Lambda with Rust Tutorial – License
 
-Copyright (c) 2025 Artem Korolev
+Copyright (c) 2025 Artem Korolev. All rights reserved.
 
-All Rights Reserved.
+1. Rights to the Tutorial Material:
+   All text content, images, diagrams, and any other materials constituting this tutorial (collectively, the “Tutorial Material”) are protected by copyright and/or other intellectual property rights owned by Artem Korolev. Any reproduction, distribution, publication, or other use of the Tutorial Material, in whole or in part, without the prior written consent of the author is strictly prohibited. The use of references citing the authorship of the original material is permitted, but the Tutorial Material itself may not be published on any platforms without the explicit permission of the author.
 
-No part of this tutorial documentation (including any associated images, examples, or written content) may be reproduced, distributed, or transmitted in any form or by any means, in whole or in part, without the prior written permission of Artem Korolev.
+2. License for Code Examples:
+   All code examples included in this tutorial are provided for educational purposes and may be used, modified, and adapted freely to suit your needs. When using, modifying, or distributing these code examples, you must credit the original author – Artem Korolev – and include a link to the original source (if available). This license for code examples does not apply to the remaining textual and graphical content of the Tutorial Material.
 
-Any use of the tutorial content (for example, posting it on another website, republishing, or distribution) is strictly prohibited without explicit permission from the author.
+3. Attribution Requirements:
+   Whenever you use any elements licensed under this document (including code examples or references to the original tutorial), you must provide attribution to the author – Artem Korolev – and, where applicable, a link to the original source.
+
+4. Publication Restrictions:
+   Publishing or republishing the entire Tutorial Material (including text, images, and any accompanying materials) on any platform is only permitted with the author’s prior written consent. The publication restrictions do not apply to the code examples licensed under Section 2.
+
+5. Disclaimer of Warranties and Liability:
+   This tutorial is provided “as is” solely for educational purposes. The author shall not be liable for any errors, typographical mistakes, or other inaccuracies in the material, nor for any direct or indirect damages arising out of or in connection with its use.
+
+For permission requests, further inquiries, or publication requests, please contact the author.

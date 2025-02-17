@@ -2,12 +2,18 @@
   "cSpell.words": [
     "awscli",
     "awscliv",
+    "clippy",
+    "dotenv",
+    "dynamodblocal",
     "github",
     "Ijoi",
     "Korolev",
     "peaceiris",
     "serde",
+    "subproject",
+    "thiserror",
     "tokio",
-    "vitepress"
+    "vitepress",
+    "републикация"
   ]
 }

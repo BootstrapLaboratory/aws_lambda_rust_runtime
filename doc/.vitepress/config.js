@@ -33,7 +33,14 @@ export default {
             text: "2. Handling REST API Requests",
             link: "/tutorial/02_handle_rest_requests",
           },
-          { text: "3. Deploy to AWS Lambda", link: "/tutorial/03_deploy_to_aws_lambda" },
+          {
+            text: "3. Deploy to AWS Lambda",
+            link: "/tutorial/03_deploy_to_aws_lambda",
+          },
+          {
+            text: "4. Configuration",
+            link: "/tutorial/04_configuration",
+          },
         ],
       },
     ],
@@ -55,7 +62,8 @@ export default {
 
     // Footer information
     footer: {
-      message: "Released under the MIT License.",
+      message:
+        "All rights reserved. This tutorial is provided solely for educational purposes. You are free to adapt and modify the code examples to suit your needs. The tutorial text remains proprietary. Any reproduction, distribution, or publication, in whole or in part, without the author’s prior written consent is strictly prohibited.",
       copyright: "Copyright © 2025 Artem Korolev",
     },
 
